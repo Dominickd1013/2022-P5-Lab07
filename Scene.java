@@ -6,7 +6,7 @@ public class Houseinforest extends Applet {
 
     public void paint(Graphics g);
 
-
+    House.drawWalls(g);
 
     }
 }
