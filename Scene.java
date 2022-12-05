@@ -1,12 +1,11 @@
 import java.awt.*;
 import java.applet.*;
-public class Scene {
 
-public class Houseinforest extends Applet {
+public class Scene extends Applet {
 
-    public void paint(Graphics g);
+    public void paint(Graphics g){
 
-    House.drawWalls(g);
-
+        House.drawHouse(g);
+        Background.drawBackground(g);
     }
 }
