@@ -1,11 +1,15 @@
 import java.awt.*;
 import java.applet.*;
+import java.awt.Color;
 
 public class Scene extends Applet {
 
     public void paint(Graphics g){
 
         House.drawHouse(g);
-        Background.drawBackground(g);
+        Background.drawSky(g);
+        Background.drawSun(g);
+        Background.drawGround(g);
+        Background.drawClouds(g);
     }
 }

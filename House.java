@@ -1,5 +1,5 @@
 import java.awt.*;
-import java.applet.*;
+import java.awt.Color;
 
 public class House {
 
@@ -11,19 +11,19 @@ public class House {
     }
 
     public static void drawWalls(Graphics g) {
-        g.drawLine(50, 50, 50, 50);
+        g.drawLine(1,1,1,1);
     }
 
     public static void drawWindows(Graphics g) {
-        g.drawLine(150, 150, 50, 50);
+        g.drawLine(1,1,1,1);
     }
 
     public static void drawDoor(Graphics g) {
-        g.drawLine(250, 250, 50, 50);
+        g.drawLine(1,1,1,1);
     }
 
     public static void drawRoof(Graphics g) {
-        g.drawLine(550, 550, 50, 50);
+        g.drawLine(1,1,1,1);
     }
 
 }
