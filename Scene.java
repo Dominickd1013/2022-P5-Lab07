@@ -6,10 +6,12 @@ public class Scene extends Applet {
 
     public void paint(Graphics g){
 
-        House.drawHouse(g);
         Background.drawSky(g);
         Background.drawSun(g);
         Background.drawGround(g);
         Background.drawClouds(g);
+        Mountains.drawMountain1(g);
+        Mountains.drawMountain2(g);
+
     }
 }
