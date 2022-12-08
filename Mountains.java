@@ -11,30 +11,50 @@ public class Mountains {
         int rightpoint = 300;
         int rightpointheight = 350;
 
-        int x[] = { leftpoint, midpoint, rightpoint };
-        int y[] = { leftpointheight, midpointheight, rightpointheight };
+        int x[] = {leftpoint, midpoint, rightpoint};
+        int y[] = {leftpointheight, midpointheight, rightpointheight};
 
-        Color gray = new Color(175, 175, 175);
-        g.setColor(gray);
-        g.fillPolygon(x, y, 3);
-
-        leftpoint = -50;
-        leftpointheight = 350;
-        midpoint = 100;
-        midpointheight = 150;
-        rightpoint = 250;
-        rightpointheight = 350;
-
-        x[] = { leftpoint, midpoint, rightpoint };
-        y[] = { leftpointheight, midpointheight, rightpointheight };
-
+        Color gray = new Color(75, 75, 75);
         g.setColor(gray);
         g.fillPolygon(x, y, 3);
     }
 
     public static void drawMountain2(Graphics g) {
-        g.drawLine(1,1,1,1);
+
+        int leftpoint = -50;
+        int leftpointheight = 350;
+        int midpoint = 100;
+        int midpointheight = 150;
+        int rightpoint = 250;
+        int rightpointheight = 350;
+
+        int x[] = {leftpoint, midpoint, rightpoint};
+        int y[] = {leftpointheight, midpointheight, rightpointheight};
+
+        Color gray = new Color(75, 75, 75);
+        g.setColor(gray);
+        g.fillPolygon(x, y, 3);
+    }
+
+    public static void drawMountain3(Graphics g) {
+
+        int leftpoint = -50;
+        int leftpointheight = 350;
+        int midpoint = 100;
+        int midpointheight = 175;
+        int rightpoint = 250;
+        int rightpointheight = 350;
+
+        int x[] = {leftpoint, midpoint, rightpoint};
+        int y[] = {leftpointheight, midpointheight, rightpointheight};
+
+        Color gray = new Color(175, 175, 175);
+        g.setColor(gray);
+        g.fillPolygon(x, y, 3);
     }
 }
+
+
+
 
 

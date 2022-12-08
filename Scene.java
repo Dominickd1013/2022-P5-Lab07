@@ -12,6 +12,6 @@ public class Scene extends Applet {
         Background.drawClouds(g);
         Mountains.drawMountain1(g);
         Mountains.drawMountain2(g);
-
+        Mountains.drawMountain3(g);
     }
 }
