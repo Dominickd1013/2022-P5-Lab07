@@ -20,11 +20,5 @@ public class Background {
         g.fillRect(0, 250, 750, 250);
     }
 
-    public static void drawClouds(Graphics g){
-        Color gray = new Color(153, 153, 153);
-        g.setColor(gray);
-        g.fillOval(50, 50, 50, 50);
-    }
-
 }
 

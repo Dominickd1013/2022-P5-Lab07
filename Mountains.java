@@ -18,7 +18,6 @@ public class Mountains {
         g.setColor(gray);
         g.fillPolygon(x, y, 3);
     }
-
     public static void drawMountain2(Graphics g) {
 
         int leftpoint = -50;
@@ -35,20 +34,19 @@ public class Mountains {
         g.setColor(gray);
         g.fillPolygon(x, y, 3);
     }
-
     public static void drawMountain3(Graphics g) {
 
         int leftpoint = -50;
         int leftpointheight = 350;
         int midpoint = 100;
         int midpointheight = 175;
-        int rightpoint = 250;
+        int rightpoint = 225;
         int rightpointheight = 350;
 
         int x[] = {leftpoint, midpoint, rightpoint};
         int y[] = {leftpointheight, midpointheight, rightpointheight};
 
-        Color gray = new Color(175, 175, 175);
+        Color gray = new Color(155, 155, 155);
         g.setColor(gray);
         g.fillPolygon(x, y, 3);
     }
